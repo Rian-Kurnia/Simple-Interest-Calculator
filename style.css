@@ -1,4 +1,68 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
 
+.maindiv {
+    background-color:white;
+    color:black;
+    width:500px;
+    padding:20px;
+    border-radius:25px;
+    /*align:center*/
+    margin: 0 auto;
+}
 
+.register {
+    padding-bottom: 20px;
+    padding-left: 40px;
+    margin: 0 0 1em 0;
+}
+
+#reg_form {
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+#reg_form label{
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#reg_form input {
+    width: 200px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#reg_form select {
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#reg_form button {
+    margin: 0 auto;
+    display: block;
+    background-color: #008CBA;
+    border: 1px solid darkblue;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+}
+
+#reg_form button:hover {
+    background-color: darkblue;
+}
+
+#years {
+    margin-bottom: 20px;
+}
+
+#result {
+    display: block;
+}
